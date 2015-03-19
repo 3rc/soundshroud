@@ -92,6 +92,7 @@ if(window.location.toString().indexOf("soundcloud.com") > -1) {
     else if(streamBar == true) {
       $(".soundshroud-bar").show()
     }
+    killPermahide()
   }
 
   //Checks number of sounds in the stream 
